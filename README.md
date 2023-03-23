@@ -26,4 +26,4 @@ python3 algoalltx2excel.py VX6JI2PB67HIRCVAERVCEKYD2Q3UGUGWTPWXWEYIDZMEAB4Q4VNHR
 ```
 
 
-![algo_to_binance5](https://user-images.githubusercontent.com/127057042/227370452-b7d72f16-4149-4d3b-a9b1-80d763665dbf.png)
+![algo_to_binance5](https://user-images.githubusercontent.com/127057042/227374662-e83c5bc0-9746-4389-ae3a-dd889c4d0994.png)
