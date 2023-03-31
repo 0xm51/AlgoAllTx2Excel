@@ -55,6 +55,11 @@ def filterAndSortAllTx(all_tx_dict_list):
                     pay_tx_dict = {key: tx[key] for key in tx.keys() & {'payment-transaction'}}
                     pay_tx_dict_filtered = {key: pay_tx_dict['payment-transaction'][key] for key in pay_tx_dict['payment-transaction'].keys() & {'amount', 'receiver'}}
                     tx_dict_filtered.update(pay_tx_dict_filtered)
+                elif 'asset-transfer-transaction' in tx:
+                    # if asset-transfer-transaction key exists get key->values for asset-transfer-transaction and extract the value as a dict by filtering this 2 keys->values amount and receiver, or add '0' value
+                    pay_tx_dict = {key: tx[key] for key in tx.keys() & {'asset-transfer-transaction'}}
+                    pay_tx_dict_filtered = {key: pay_tx_dict['asset-transfer-transaction'][key] for key in pay_tx_dict['asset-transfer-transaction'].keys() & {'amount', 'receiver'}}
+                    tx_dict_filtered.update(pay_tx_dict_filtered)
                 else:
                     tx_dict_filtered.update({"amount" : 0 , "receiver" : 0})
                 # append to the new filtered tx dict list

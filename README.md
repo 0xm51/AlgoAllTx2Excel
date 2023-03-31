@@ -12,7 +12,8 @@ Examples here attached for 3 suspicious accounts:
 
  - Main addr which seems to be a final destination for many hacked accounts => `6PO62A5VTCIQJWFGEV7RNAGXE5AVCIFI5VYOO4MX6OFEQHB6P2XCXW3SBY`  
  - Addr used as a "transit" addr => `4UE7AHNYEYD5Z2VJUYTU5JIXHLFJIVBXF3RXZRJSMN4ASAJEJOOBYOK4AE`  
- - Last addr before transfering to binance 5 => `VX6JI2PB67HIRCVAERVCEKYD2Q3UGUGWTPWXWEYIDZMEAB4Q4VNHRHVKYY`  
+ - Last addr before transfering to binance 5 => `VX6JI2PB67HIRCVAERVCEKYD2Q3UGUGWTPWXWEYIDZMEAB4Q4VNHRHVKYY`
+ - New malicious addr on 31 march 2023 but seems not related to addr above => `MVEKYHFLJ63UKDYGNKCJD7WO5KFJZFVFMJPSDAWLDIDP4LUP575YDOW6GI` 
 
 ## Requirements
 Tested with:
